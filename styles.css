@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+#intro {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+#love-poem {
+  font-size: 1.2rem;
+  margin: 0 20px;
+}
+
+#love-poem p {
+  font-family: 'Cursive', sans-serif; /* Cursive font style for the poem */
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 15px; /* Reduce margin */
+  }
+
+  #intro {
+    font-size: 1.2rem;
+  }
+
+  #love-poem p {
+    font-size: 1rem;
+    margin-bottom: 15px; /* Reduce margin */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  #love-poem {
+    margin: 0 10px; /* Reduce side margins */
+  }
+}
